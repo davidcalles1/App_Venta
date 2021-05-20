@@ -165,6 +165,9 @@
     <EmbeddedResource Include="Vistas\FrmUsuario.resx">
       <DependentUpon>FrmUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\FrmVentas.resx">
+      <DependentUpon>FrmVentas.cs</DependentUpon>
+    </EmbeddedResource>
     <EntityDeploy Include="MODEL\sistemaVentas.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>sistemaVentas.Designer.cs</LastGenOutput>
