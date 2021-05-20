@@ -120,6 +120,12 @@
     <Compile Include="Vistas\FrmDocumento.Designer.cs">
       <DependentUpon>FrmDocumento.cs</DependentUpon>
     </Compile>
+    <Compile Include="Vistas\FrmMenuVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\FrmMenuVenta.Designer.cs">
+      <DependentUpon>FrmMenuVenta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\FrmProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\FrmDocumento.resx">
       <DependentUpon>FrmDocumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\FrmMenuVenta.resx">
+      <DependentUpon>FrmMenuVenta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\FrmProducto.resx">
       <DependentUpon>FrmProducto.cs</DependentUpon>
